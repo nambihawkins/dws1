@@ -13,7 +13,6 @@ body {
     font-weight: bold;
     font-style: normal;
     line-height: normal;
-    text-shadow: #deb887;
     border:thick double #D97D71;
     padding: 5% 5% 1% 5%;
     width: 85%;
@@ -97,10 +96,4 @@ figure {
 /*adding padding between footer and last page item*/
 #Today {
     padding-bottom: 2%;
-}
-#Top {
-    text-align: center;
-    border: 1px solid #000;
-    padding: 5px;
-    box-shadow: #D97D71;
 }
