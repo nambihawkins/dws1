@@ -1,0 +1,106 @@
+/*main content*/
+@font-face {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Josefin Sans'), local('JosefinSans'), url(https://fonts.gstatic.com/s/josefinsans/v9/xgzbb53t8j-Mo-vYa23n5pS3E-kSBmtLoNJPDtbj2Pk.ttf) format('truetype');
+}
+body {
+    background-color: #FAEAD6;
+    color: #000;
+    font-family: Arial, sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    font-style: normal;
+    line-height: normal;
+    text-shadow: #deb887;
+    border:thick double #D97D71;
+    padding: 5% 5% 1% 5%;
+    width: 85%;
+    margin: 20px auto;
+    border-radius: 20px;
+}
+h1 {
+    color: #730C02;
+    text-align: center;
+    font-size: 3em;
+    font-family: "Josefin Sans", sans-serif;
+    text-decoration: underline;
+    text-shadow: 4px 4px 14px #969696;
+}
+h2 {
+    color:#A62103;
+    font-size: 1.5em;
+}
+h3 {
+    color:#D93B18;
+    font-size: 1.25em;
+}
+/*end main content*/
+
+/*links & lists*/
+a {
+    color: #730C02;
+    text-decoration: none;
+}
+a:visited {
+    color: #2f4f4f;
+}
+a:hover {
+    color: #A62103;
+}
+a:active {
+    color: #D93B18;
+}
+ol {
+    list-style-type: upper-roman;
+}
+ul {
+    list-style-type: disc;
+}
+/*end links & lists*/
+
+/*images on the side*/
+aside {
+    float: right;
+    padding:0 0 2% 5%;
+}
+img {
+    border: 4px solid #800000;
+    width:300px;
+    height:175px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: -5px 5px 7px 5px hsla(0, 0%, 0%, 0.53);
+}
+img:hover {
+    border-color: #A62103;
+    box-shadow: -5px 5px 7px 5px #969696;
+}
+img:active {
+    border-color: #D93B18;
+}
+figcaption {
+    text-align: center;
+    padding-top: 3%;
+    font-size:.75em;
+}
+figure {
+    padding-top: 5%;
+}
+#Images {
+    text-align: center;
+}
+/*end images on the side*/
+
+/*adding padding between footer and last page item*/
+#Today {
+    padding-bottom: 2%;
+}
+#Top {
+    text-align: center;
+    border: 1px solid #000;
+    padding: 5px;
+    box-shadow: #D97D71;
+}
