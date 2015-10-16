@@ -5,8 +5,11 @@
     font-weight: 400;
     src: local('Josefin Sans'), local('JosefinSans'), url(https://fonts.gstatic.com/s/josefinsans/v9/xgzbb53t8j-Mo-vYa23n5pS3E-kSBmtLoNJPDtbj2Pk.ttf) format('truetype');
 }
+html {
+    background: #fcfff4 url("../images/presence.png") repeat fixed;
+}
 body {
-    background-color: #FAEAD6;
+    background: url("../images/Motorcycle.png") no-repeat 20% .5%, -webkit-linear-gradient(top, #fcfff4 0%,#e9e9ce 100%), #fffaf4;
     color: #000;
     font-family: Arial, sans-serif;
     font-size: 1em;
@@ -14,10 +17,11 @@ body {
     font-style: normal;
     line-height: normal;
     border:thick double #D97D71;
-    padding: 5% 5% 1% 5%;
-    width: 85%;
-    margin: 20px auto;
-    border-radius: 20px;
+    padding: 0 5% 0 5%;
+    width: 75%;
+    margin: auto;
+    border-radius: 50px;
+    box-shadow: -5px 5px 7px 5px #969696;
 }
 h1 {
     color: #730C02;
@@ -36,6 +40,14 @@ h3 {
     font-size: 1.25em;
 }
 /*end main content*/
+
+nav {
+    background: #fff;
+    margin:auto;
+    padding: 0 10% 0 10%;
+    border: #800000 outset;
+    width: 40%;
+}
 
 /*links & lists*/
 a {
@@ -59,17 +71,27 @@ ul {
 }
 /*end links & lists*/
 
+#column1 {
+    float:right;
+    clear: both;
+    width:65%;
+    padding: 1%;
+    margin: 2%;
+    overflow: auto;
+}
 /*images on the side*/
-aside {
+#column2 {
     float: right;
-    padding:0 0 2% 5%;
+    clear: both;
+    width:35%;
+    padding: 1%;
+    margin:1% 0 1% 1%;
+    overflow: auto;
 }
 img {
     border: 4px solid #800000;
-    width:300px;
-    height:175px;
     display: block;
-    margin: 0 auto;
+    margin: auto;
     text-align: center;
     box-shadow: -5px 5px 7px 5px hsla(0, 0%, 0%, 0.53);
 }
@@ -96,4 +118,8 @@ figure {
 /*adding padding between footer and last page item*/
 #Today {
     padding-bottom: 2%;
+}
+
+footer {
+    text-align: center;
 }
